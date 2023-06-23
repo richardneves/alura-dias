@@ -1,5 +1,5 @@
 import { log } from './log.mjs';
-import { s3 } from '@aws-sdk/client-s3';
+import { S3 } from '@aws-sdk/client-s3';
 
 const s3Client = new S3({ region: 'us-east-1' })
 export const handler = async(event) => {
